@@ -47,8 +47,17 @@
       <hr class="border-2 lg:w-80" />
     </div>
 
-    <div class="mt-40">
-      <h2>PROCESSUS DE REALISATION</h2>
+    <div class="lg:mt-20">
+      <h2 class="lg:mb-5">achievement process</h2>
+      <div class="lg:flex">
+        <p class="font-iceberg lg:text-9xl">01</p>
+        <p class="lg:ml-10 lg:w-96">
+          I <strong class="font-iceberg">started</strong> by making a needs analysis of the site through a story mapping. Then I modified
+          the svg of the watch provided before in order to have a shape and a style that better suited my study. From there, I was able to
+          create the brandboard and the visual identity of the project (watch + site). From then on, I was able to start the design of the
+          website model on Figma.
+        </p>
+      </div>
     </div>
   </main>
 </template>
