@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mettre ici les styles "globaux" */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #161616;
+  color: white;
+}
+.noise::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  /* you can control opacity of noise  */
+  opacity: 0.1;
+  z-index: 1000;
+  pointer-events: none;
+  background: url(../src/assets/noise_effect.gif);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/*h1 {
+  font-family: "Barracuda";
+  font-size: 150px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: line-through 0.5px white;
+}
+h1 {
+  font-family: "Gravitas One";
+}
+*/
+
+.TT {
+  /*font-size: 5rem;*/
+  font-family: iceberg;
+  text-transform: uppercase;
+}
