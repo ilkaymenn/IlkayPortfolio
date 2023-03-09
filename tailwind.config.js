@@ -23,6 +23,7 @@ module.exports = {
       fontSize: {
         grand: "1.5rem",
         big: "5rem",
+        enorme: "6rem",
       },
     },
   },

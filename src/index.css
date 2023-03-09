@@ -50,3 +50,10 @@ h1 {
   font-family: iceberg;
   text-transform: uppercase;
 }
+
+h2 {
+  font-size: 24px;
+  font-family: gravitasOne;
+  text-transform: uppercase;
+  text-decoration: underline;
+}

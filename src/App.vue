@@ -31,6 +31,8 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
+import { RouterLink, RouterView } from "vue-router";
 // import IconMenu from "../src/components/icons/IconMenu.vue";
 import Menu from "../src/components/global/Menu.vue";
 </script>
