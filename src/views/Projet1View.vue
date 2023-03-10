@@ -116,6 +116,56 @@
     <div class="lg:mt-16 lg:grid lg:justify-center">
       <hr class="border-2 lg:w-80" />
     </div>
+
+    <div class="lg:mt-20 lg:grid">
+      <div class="lg:flex lg:items-center">
+        <p class="font-iceberg lg:text-9xl">02</p>
+        <p class="lg:ml-10 lg:w-96">
+          In the <strong class="font-iceberg">second</strong> phase, I carried out a marketing nudge study, including SMART objectives, and
+          the cognitive biases of this study.
+        </p>
+      </div>
+    </div>
+
+    <div class="lg:mt-16 lg:grid lg:items-center lg:justify-items-center">
+      <div class="lg:w-4/6"><img src="@/assets/projet1/images/SMART.png" alt="image des objectifs SMART " /></div>
+      <div class="lg:mt-4 lg:w-4/6"><img src="@/assets/projet1/images/BiaisCognitifs.png" alt="image des biais cognitifs" /></div>
+    </div>
+
+    <div class="lg:mt-16 lg:grid lg:justify-center">
+      <hr class="border-2 lg:w-80" />
+    </div>
+
+    <div class="lg:mt-20 lg:grid">
+      <div class="lg:flex lg:items-center">
+        <p class="font-iceberg lg:text-9xl">03</p>
+        <p class="lg:ml-10 lg:w-96">
+          So, in the <strong class="font-iceberg">third</strong> and last phase I developed my website with the Tailwind CSS Framework. And
+          I ended up putting it online on heroku.
+        </p>
+      </div>
+    </div>
+
+    <div class="lg:flex lg:justify-center">
+      <p class="lg:text-4xl">
+        You can access the website right
+        <a href="https://melodious-moonbeam-cf41df.netlify.app/"><strong class="font-iceberg uppercase underline">here</strong></a>
+      </p>
+    </div>
+
+    <div class="lg:mt-20 lg:grid lg:justify-items-center">
+      <div class="lg:grid lg:justify-items-center">
+        <h2 class="">tools</h2>
+        <div class="flex lg:mt-4 lg:h-12">
+          <img src="@/assets/logo/dev/VSC.png" alt="logo Illustrator" />
+          <img src="@/assets/logo/dev/TailwindCSS.png" alt="logo Figma" />
+          <img src="@/assets/logo/dev/VueJS.png" alt="logo Figma" />
+          <img src="@/assets/logo/dev/Heroku.png" alt="logo Figma" />
+          <img src="@/assets/logo/dev/Netlify.png" alt="logo Figma" />
+          <img src="@/assets/logo/dev/Github.png" alt="logo Figma" />
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 
