@@ -172,7 +172,26 @@
     <div class="lg:mt-40 lg:grid lg:justify-center">
       <hr class="w-80 border-2" />
     </div>
+
+    <div class="lg:mt-20 lg:grid lg:justify-items-center">
+      <p class="lg:text-4xl">You can download all the documents <strong class="font-iceberg uppercase underline">here</strong></p>
+      <div class="lg:mt-10 lg:grid lg:justify-items-center">
+        <a href="@/assets/projet1/fichiers/StoryMapping.pdf" download="download/StoryMapping.pdf"
+          >Download <strong class="font-iceberg uppercase underline"> Story Mapping</strong></a
+        >
+        <a href="@/assets/projet1/fichiers/StoryMapping.pdf" download="download/StoryMapping.pdf"
+          >Download <strong class="font-iceberg uppercase underline"> Story Mapping</strong></a
+        >
+        <a href="@/assets/projet1/fichiers/StoryMapping.pdf" download="download/StoryMapping.pdf"
+          >Download <strong class="font-iceberg uppercase underline"> Story Mapping</strong></a
+        >
+      </div>
+    </div>
   </main>
+
+  <Footer></Footer>
 </template>
 
-<script setup></script>
+<script setup>
+import Footer from "../components/global/Footer.vue";
+</script>
